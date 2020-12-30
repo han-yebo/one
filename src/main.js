@@ -5,6 +5,17 @@ import store from './store'
 
 Vue.config.productionTip = false
 
+//axios
+import axios from './api/index'
+Vue.prototype.$http=axios
+
+// 按需引入vant
+import 'vant/lib/index.css'
+import '../src/vant/vant.js'
+
+import './assets/js/rem.js'
+
+
 new Vue({
   router,
   store,
