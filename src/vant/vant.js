@@ -10,7 +10,21 @@ import {
     DropdownMenu,
     DropdownItem,
     Tab,
-    Tabs
+    Tabs,
+    Divider,
+    Field,
+    Form,
+    CountDown,
+    Cell,
+    CellGroup,
+    Empty,
+    Popup,
+    DatetimePicker,
+    Area,
+    Checkbox,
+    CheckboxGroup,
+    Uploader,
+    Toast
 } from 'vant'
 Vue.use(Button)
 Vue.use(Tabbar).use(TabbarItem)
@@ -19,5 +33,19 @@ Vue.use(Swipe).use(SwipeItem)
 Vue.use(Icon)
 Vue.use(DropdownMenu)
 Vue.use(DropdownItem)
-Vue.use(Tab);
-Vue.use(Tabs);
+Vue.use(Tab)
+Vue.use(Tabs)
+Vue.use(Divider)
+Vue.use(Field)
+Vue.use(Form)
+Vue.use(CountDown)
+Vue.use(Cell)
+Vue.use(CellGroup)
+Vue.use(Empty)
+Vue.use(Popup)
+Vue.use(DatetimePicker)
+Vue.use(Area)
+Vue.use(Checkbox)
+Vue.use(CheckboxGroup)
+Vue.use(Uploader)
+Vue.use(Toast)

@@ -7,9 +7,9 @@
       <van-tabbar route active-color="#EB6100" inactive-color="#B7B7B7">
         <van-tabbar-item replace to="/home/index" icon="wap-home">首页</van-tabbar-item>
         <van-tabbar-item replace to="/home/culum" icon="column">课程</van-tabbar-item>
-        <van-tabbar-item replace icon="gift">约课记录</van-tabbar-item>
+        <van-tabbar-item replace to="/home/record" icon="gift">约课记录</van-tabbar-item>
         <van-tabbar-item replace icon="todo-list">练习</van-tabbar-item>
-        <van-tabbar-item replace icon="manager">我的</van-tabbar-item>
+        <van-tabbar-item replace to="/home/my" icon="manager">我的</van-tabbar-item>
       </van-tabbar>
     </footer>
   </div>
@@ -17,20 +17,21 @@
 
 <script>
 export default {
-  name: "Home"
+  name: "Home",
+ 
 };
 </script>
 <style scoped lang="scss">
-.home{
+.home {
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
 }
-.content{
+.content {
   flex: 1;
 }
-footer{
+footer {
   height: 1rem;
 }
 </style>
